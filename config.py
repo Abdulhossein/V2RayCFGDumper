@@ -23,7 +23,7 @@ def remove_duplicates(input_list):
 
 def extract_codes_from_telegram(text):
     """Extract V2Ray config codes from Telegram page content.
-    
+
     Telegram t.me links often contain config codes in various formats.
     This function looks for protocol patterns like vmess://, vless://, etc.
     """
@@ -34,7 +34,7 @@ def extract_codes_from_telegram(text):
         pattern = re.escape(protocol) + r'[^\s]+'
         matches = re.findall(pattern, text)
         codes.extend(matches)
-    
+
     # Also look for obfuscated/encoded formats commonly found in Telegram
     # Pattern: protocol followed by base64-like or encoded content
     for protocol in CONFIG_PROTOCOLS:
@@ -42,7 +42,7 @@ def extract_codes_from_telegram(text):
         pattern = re.escape(protocol).replace('://', r'[:/]*') + r'[^\s&]+'
         matches = re.findall(pattern, text)
         codes.extend(matches)
-    
+
     return codes
 
 
