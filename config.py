@@ -132,6 +132,12 @@ for code in processed_codes:
 
 i = 0
 with open("sub.txt", "w", encoding="utf-8") as file:
+    file.write("#profile-title: base64:djJyYXkgY29uZmlnIGR1bXBlcg==\n")
+    file.write("#profile-update-interval: 1\n")
+    file.write(
+        "#subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531\n")
+    file.write("#support-url: https://github.com/Abdulhossein/V2RayCFGDumper/\n")
+    file.write("#profile-web-page-url: https://raw.githubusercontent.com/Abdulhossein/V2RayCFGDumper/refs/heads/main/sub.txt\n")
     for code in new_processed_codes:
         if i == 0:
             config_string = "#🌐 به روزرسانی شده در" + final_string
