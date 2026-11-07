@@ -6,7 +6,7 @@
 <!-- USAGE -->
 ## Usage
 
-Add This [Link](https://raw.githubusercontent.com/Abdulhossein/V2RayCFGDumper/refs/heads/main/sub.txt) in V2RayNG, Nekoray on Android or V2rayN or NekoBox on PC as a subscription link and update every 15 minute!
+Add This [Link](https://raw.githubusercontent.com/Abdulhossein/V2RayCFGDumper/refs/heads/main/sub.txt) in V2RayNG, Nekoray on Android or V2rayN or NekoBox on PC as a subscription link and update everyday!
 
 or Scan QRCode Below:
 
